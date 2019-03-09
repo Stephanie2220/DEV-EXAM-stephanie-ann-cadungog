@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Employee Info Page</title>
+  </head>
+  <body>
+    <h1><strong>2. Employee Info Page</strong></h1>
+    <table>
+    <td>
+        <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+            <div>
+                <label>First Name:</label><label class="validation-error hide" id="fullNameValidationError"></label>
+                <input type="text" name="FN" id="FN">
+            </div><br>
+            <div>
+                <label>Last Name:</label>
+                <input type="text" name="LN" id="LN">
+            </div><br>
+            <div>
+                <label>Middle Name:</label>
+                <input type="text" name="MN" id="MN">
+            </div><br>
+            <div>
+                <label>Birth Date:</label>
+                <input type="text" name="BD" id="BD">
+            </div><br>
+            <div>
+                <label>Gender:</label>
+                <input type="text" name="G" id="G">
+            </div><br>
+            <div>
+                <label>Marital Status:</label>
+                <input type="text" name="MS" id="MS">
+            </div><br>
+            <div>
+                <label>Position:</label>
+                <input type="text" name="P" id="P">
+            </div><br>
+            <div>
+                <label>Date Hired:</label>
+                <input type="text" name="DH" id="DH">
+            </div><br>
+            <p>Contact Info: [Add] </p>
+            <table>
+              <tr>
+                <th>Value</th>
+                <th>Primary?</th>
+              </tr>
+              <tr>
+                <td><input type="text" name="value"></td>
+                <td>
+                     <div class="radio">
+                          <label><input type="radio" name="optradio"></label>
+                     </div>
+                </td>
+              </tr>
+            <tr>
+            <td><input type="text" name="value"></td>
+          <td>
+               <div class="radio">
+                    <label><input type="radio" name="optradio"></label>
+               </div>
+          </td>
+          </tr>
+          <tr>
+            <td><input type="text" name="value"></td>
+            <td>
+                 <div class="radio">
+                      <label><input type="radio" name="optradio"></label>
+                 </div>
+            </td>
+          </tr>
+            </table>
+            <p>Address Info: [Add] </p>
+            <table class= "table table-hover">
+              <tr>
+                <th>Adress 1</th>
+                <th>Adress 2</th>
+                <th>Primary?</th>
+              </tr>
+              <tr>
+                <td><input type="text" name="value"></td>
+                <td><input type="text" name="value"></td>
+                <td>
+                     <div class="radio">
+                          <label><input type="radio" name="optradio"></label>
+                     </div>
+                </td>
+              </tr>
+              <tr>
+                <td><input type="text" name="value"></td>
+                <td><input type="text" name="value"></td>
+                <td>
+                     <div class="radio">
+                          <label><input type="radio" name="optradio"></label>
+                     </div>
+                </td>
+              </tr>
+            </table>
+        </form>
+    </td>
+    </<table>
+  </body>
+</html>
